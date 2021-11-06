@@ -6,5 +6,10 @@
             "email": "azsxdc890902@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+	"autoload":{
+		"psr4":{
+			"Demo\\":"./src/Demo"
+		}
+	}
 }
